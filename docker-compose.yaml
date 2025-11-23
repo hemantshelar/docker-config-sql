@@ -1,8 +1,8 @@
 services:
 
   mssql:
-    container_name: mssql-db
-    hostname: mssql-db
+    container_name: mssql-db-invtation
+    hostname: mssql-db-invtation
     image: mcr.microsoft.com/mssql/server:2022-latest
     environment:
       ACCEPT_EULA: 'Y'
